@@ -1,0 +1,9 @@
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+  lefthook: true
+  "@parcel/watcher": true
+  "@swc/core": true
+minimumReleaseAge: 1440
+overrides:
+  "@next/env": npm:@dotenvx/next-env@^2.2.3

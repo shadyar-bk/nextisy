@@ -1,0 +1,55 @@
+{
+  // ── Editor ─────────────────────────────────────────────────────────────────────────────────────
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": false,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.rulers": [100],
+  "editor.wordWrapColumn": 100,
+  "editor.wordWrap": "wordWrapColumn",
+  "emmet.showExpandedAbbreviation": "never",
+
+  // ── Code Actions ───────────────────────────────────────────────────────────────────────────────
+  "editor.codeActionsOnSave": {
+    "source.format.oxc": "always",
+    "source.fixAll.oxc": "always"
+  },
+
+  // ── Oxc ────────────────────────────────────────────────────────────────────────────────────────
+  "oxc.configPath": "./oxlint.config.ts",
+  "oxc.fixKind": "safe_fix",
+  "oxc.fmt.configPath": "./oxfmt.config.ts",
+  "oxc.requireConfig": true,
+
+  // ── Tailwind CSS ───────────────────────────────────────────────────────────────────────────────
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.experimental.configFile": "./src/app/globals.css",
+
+  // ── React Compiler ─────────────────────────────────────────────────────────────────────────────
+  "reactCompilerMarker.babelPluginPath": "node_modules/babel-plugin-react-compiler",
+
+  // ── Tab Labels ─────────────────────────────────────────────────────────────────────────────────
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname(1)}/${dirname} · page",
+    "**/app/**/layout.tsx": "${dirname(1)}/${dirname} · layout",
+    "**/app/**/route.ts": "${dirname(1)}/${dirname} · route",
+    "**/app/**/{loading,error,not-found,global-not-found,forbidden,unauthorized,template,default,global-error}.tsx": "${dirname(1)}/${dirname} · ${filename}",
+    "**/app/**/{sitemap,robots,manifest,icon,apple-icon,opengraph-image,twitter-image}.{ts,tsx}": "${dirname(1)}/${dirname} · ${filename}",
+    "**/components/**/index.tsx": "${dirname(1)}/${dirname} · component"
+  },
+
+  // ── TypeScript ─────────────────────────────────────────────────────────────────────────────────
+  "js/ts.tsdk.promptToUseWorkspaceVersion": true,
+  "js/ts.experimental.useTsgo": true,
+
+  // ── i18n ───────────────────────────────────────────────────────────────────────────────────────
+  "i18n-ally-next.sourceLanguage": "en-US",
+  "i18n-ally-next.displayLanguage": "en-US",
+  "i18n-ally-next.enabledFrameworks": ["next-intl"],
+  "i18n-ally-next.keystyle": "nested",
+  "i18n-ally-next.localesPaths": ["src/locales"]
+}

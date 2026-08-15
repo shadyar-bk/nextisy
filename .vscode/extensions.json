@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "lydanne.i18n-ally-next",
+    "yoavbls.pretty-ts-errors",
+    "blazejkustra.react-compiler-marker",
+    "bradlc.vscode-tailwindcss",
+    "vitest.explorer",
+    "oxc.oxc-vscode"
+  ]
+}
