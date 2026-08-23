@@ -1,0 +1,34 @@
+{
+  "ErrorPage": {
+    "description": "An unexpected problem interrupted this page. Try again, or return home and continue browsing.",
+    "eyebrow": "Something went wrong",
+    "home": "Return home",
+    "retry": "Try again",
+    "title": "We couldn't load this page"
+  },
+  "Home": {
+    "eyebrow": "Next.js template",
+    "route": "Current route: {route}"
+  },
+  "LocaleSwitcher": {
+    "ariaLabel": "Change language",
+    "label": "Language"
+  },
+  "Metadata": {
+    "description": "A clean, internationalized Next.js template with accessible components and light, dark, and system themes.",
+    "title": "Nextisy — Next.js application template"
+  },
+  "NotFoundPage": {
+    "description": "The page may have moved, or the address may be incorrect.",
+    "eyebrow": "Error 404",
+    "home": "Return home",
+    "title": "Page not found"
+  },
+  "ThemeSwitcher": {
+    "ariaLabel": "Change appearance",
+    "dark": "Dark",
+    "label": "Theme",
+    "light": "Light",
+    "system": "System"
+  }
+}

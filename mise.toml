@@ -1,0 +1,7 @@
+[tools]
+node = "24"
+pnpm = "11"
+
+[settings]
+lockfile = true
+minimum_release_age = "1d"
